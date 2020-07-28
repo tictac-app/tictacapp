@@ -4,7 +4,7 @@
   <groupId>com.tictac.co</groupId>
   <artifactId>tictac-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>tictac-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -18,18 +18,17 @@
     <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
-      <url>scp://repo/maven2</url>
+      <id>tictacapp-release</id>
+      <name>tictacapp-release</name>
+      <url>http://ec2-3-19-242-207.us-east-2.compute.amazonaws.com:8081/repository/tictacapp-release/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>propSnap</id>
-      <name>Propellors Snapshots</name>
-      <url>sftp://propellers.net/maven</url>
+      <id>tictacapp-snapshot</id>
+      <name>tictacapp-snapshot</name>
+      <url>http://ec2-3-19-242-207.us-east-2.compute.amazonaws.com:8081/repository/tictacapp-snapshot/</url>
       <layout>legacy</layout>
     </snapshotRepository>
-    ...
   </distributionManagement>
 </project>
