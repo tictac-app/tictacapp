@@ -25,6 +25,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <profiles>
+  <profile>
+     <id>tictacapp-deploy</id>
     <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
@@ -41,4 +44,6 @@
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
+ </profile>
+  </profiles>
 </project>
