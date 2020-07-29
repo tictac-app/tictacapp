@@ -26,8 +26,8 @@
     </dependency>
   </dependencies>
   <profiles>
-  <profile>
-     <id>tictacapp-deploy</id>
+   <profile>
+    <id>tictacapp-deploy</id>
     <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
@@ -45,5 +45,5 @@
     </snapshotRepository>
   </distributionManagement>
  </profile>
-  </profiles>
+</profiles>
 </project>
