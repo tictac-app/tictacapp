@@ -7,6 +7,16 @@
   <version>1.0</version>
   <name>tictac-app</name>
   <url>http://maven.apache.org</url>
+  <repositories>
+    <repository>
+      <id>tictacapp-group</id>
+      <url>http://ec2-18-222-169-29.us-east-2.compute.amazonaws.com:8081/repository/tictacapp-group/</url>
+    </repository>
+    <repository>
+      <id>maven-public</id>
+      <url>ttp://maven.apache.org</url>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
