@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>tictacapp-release</id>
       <name>tictacapp-release</name>
-      <url>http://ec2-3-19-242-207.us-east-2.compute.amazonaws.com:8081/repository/tictacapp-release/</url>
+      <url>http://ip-172-31-46-118.us-east-2.compute.internal:8081/repository/tictacapp-release/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>tictacapp-snapshot</id>
       <name>tictacapp-snapshot</name>
-      <url>http://ec2-3-19-242-207.us-east-2.compute.amazonaws.com:8081/repository/tictacapp-snapshot/</url>
+      <url>http://ip-172-31-46-118.us-east-2.compute.internal:8081/repository/tictacapp-snapshot/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
