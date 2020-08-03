@@ -10,7 +10,7 @@
   <repositories>
     <repository>
       <id>tictacapp-group</id>
-      <url>http://ip-172-31-46-118.us-east-2.compute.internal:8081/repository/tictacapp-group/</url>
+      <url>http://ip-172-31-34-219.us-east-2.compute.internal:8081/repository/tictacapp-group/</url>
     </repository>
     <repository>
       <id>maven-public</id>
