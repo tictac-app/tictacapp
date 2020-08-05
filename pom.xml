@@ -4,7 +4,7 @@
   <groupId>com.tictac.co</groupId>
   <artifactId>tictac-app</artifactId>
   <packaging>jar</packaging>
-  <version>4.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>tictac-app</name>
   <url>http://maven.apache.org</url>
   <repositories>
